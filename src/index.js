@@ -16,7 +16,7 @@ ReactDOM.render(
 );
 
 Amplify.configure({
-    Auth: {
+    Auth: { 
       mandatorySignIn: true,
       region: config.cognito.REGION,
       userPoolId: config.cognito.USER_POOL_ID,
